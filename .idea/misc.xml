@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Subject/Adroid/DuAn1/Lan1/app/src/main/res/drawable/drawable_background.xml" value="0.10364583333333334" />
+        <entry key="..\:/Subject/Adroid/DuAn1/Lan1/app/src/main/res/layout/activity_kho.xml" value="0.1" />
+        <entry key="..\:/Subject/Adroid/DuAn1/Lan1/app/src/main/res/layout/activity_kho1.xml" value="0.25" />
+        <entry key="..\:/Subject/Adroid/DuAn1/Lan1/app/src/main/res/layout/activity_kho2.xml" value="0.25" />
+        <entry key="..\:/Subject/Adroid/DuAn1/Lan1/app/src/main/res/layout/activity_t_b3.xml" value="0.1358695652173913" />
+        <entry key="..\:/Subject/Adroid/DuAn1/Lan1/app/src/main/res/layout/activity_t_b4.xml" value="0.25" />
+        <entry key="..\:/Subject/Adroid/DuAn1/Lan1/app/src/main/res/layout/activity_t_b5.xml" value="0.1" />
+        <entry key="..\:/Subject/Adroid/DuAn1/Lan1/app/src/main/res/layout/dialog_that_bai.xml" value="0.1" />
+        <entry key="..\:/Subject/Adroid/DuAn1/Lan1/app/src/main/res/layout/row_kl.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

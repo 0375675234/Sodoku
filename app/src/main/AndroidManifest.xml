@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sudoku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ActivityKiluc.KiLucTBActivity" />
+        <activity android:name=".ActivityKiluc.KiLucKhoActivity" />
+        <activity android:name=".ActivityKiluc.KiLucDeActivity" />
+        <activity android:name=".ListKL.KiLucDe1Activity">
+
+        </activity>
+        <activity android:name=".KiLucActivity" />
+        <activity android:name=".ActivityManKho.Kho3Activity" />
+        <activity android:name=".ActivityManKho.Kho2Activity" />
+        <activity android:name=".ActivityManKho.Kho1Activity" />
+        <activity android:name=".ActivityManTB.TB5Activity" />
+        <activity android:name=".ActivityManTB.TB4Activity" />
+        <activity android:name=".ActivityManTB.TB3Activity" />
+        <activity android:name=".ActivityManTB.TB2Activity" />
+        <activity android:name=".ActivityManTB.TB1Activity" />
+        <activity android:name=".ActivityManDe.De6Activity" />
+        <activity android:name=".ActivityManDe.De5Activity" />
+        <activity android:name=".ActivityManDe.De4Activity" />
+        <activity android:name=".ActivityManDe.De3Activity" />
+        <activity android:name=".ActivityManDe.De2Activity" />
+        <activity android:name=".ActivityManDe.De1Activity" />
+        <activity android:name=".DangKiActivity" />
+        <activity android:name=".DsNguoiDungActivity" />
+        <activity android:name=".ManHinhChaoClickActivity" />
+        <activity android:name=".ActivityCapDo.KhoActivity" />
+        <activity android:name=".ActivityCapDo.TBActivity" />
+        <activity android:name=".ActivityCapDo.DeActivity" />
+        <activity android:name=".CapDoActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".DangNhapActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ManHinhChaoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- activity cha -->
+        </activity>
+    </application>
+
+</manifest>

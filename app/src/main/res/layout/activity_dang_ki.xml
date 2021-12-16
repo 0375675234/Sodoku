@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#4BEEEA00"
+    android:layout_height="match_parent"
+    tools:context=".DangKiActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÍ"
+        android:textSize="50sp"
+        android:textColor="#FF0000"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:background="@drawable/bogoc"
+        android:hint="Username"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:hint="Password"
+        android:background="@drawable/bogoc"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"/>
+    <EditText
+        android:id="@+id/edtRePass"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:background="@drawable/bogoc"
+        android:hint="Nhập lại Password"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:hint="Tên người dùng"
+        android:background="@drawable/bogoc"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"/>
+    <Button
+        android:onClick="dangkiND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí"
+        android:background="@drawable/button"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:onClick="back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_back"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityKiluc.KiLucKhoActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:onClick="back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_back"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KHÓ"
+        android:textSize="50sp"
+        android:textColor="#DC1223"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Màn 1"
+        style="@style/man"
+        android:onClick="kho1"
+        android:background="#FF2803"/>
+    <TextView
+        android:onClick="kho2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Màn 2"
+        style="@style/man"
+        android:background="#FF2803"/>
+    <TextView
+        android:onClick="kho3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Màn 3"
+        style="@style/man"
+        android:background="#FF2803"/>
+</LinearLayout>

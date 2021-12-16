@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#00DAEE"
+    >
+    <TextView
+        android:onClick="choingay"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHƠI NGAY"
+        android:id="@+id/choi_ngay"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/lua_chon"
+        android:padding="15dp"
+        />
+    <TextView
+        android:onClick="dangnhap"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+        android:text="ĐĂNG NHẬP"
+        android:id="@+id/dang_nhap"
+        android:textSize="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/lua_chon"/>
+    <TextView
+        android:onClick="dangki"
+        android:id="@+id/dang_ki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÍ"
+        android:textColor="#F6075B"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"/>
+
+</LinearLayout>
